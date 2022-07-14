@@ -1,0 +1,21 @@
+Author: Girish Palya <girishji@gmail.com>
+Date:   Thu, 14 Jul 2022 14:14:45 +0200
+
+First commit
+
+
+ M .gitignore
+M  README.md
+A  choc-keyboard.kicad_pcb
+A  choc-keyboard.kicad_prl
+A  choc-keyboard.kicad_pro
+A  choc-keyboard.kicad_sch
+A  fp-lib-table
+A  placesw.py
+A  sym-lib-table
+
+commit 2f1e4dab03f43130013811715d8959b9f02c1fb0
+Author: girishp <girishji@gmail.com>
+Date:   Thu Jul 14 12:39:22 2022 +0200
+
+    Initial commit

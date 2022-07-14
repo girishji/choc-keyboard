@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "kailh-choc")(type "KiCad")(uri "/Users/gp/Projects/KiCad/amoeba-choc/kailh-choc.kicad_sym")(options "")(descr ""))
+  (lib (name "blackpill")(type "KiCad")(uri "/Users/gp/Projects/KiCad/optical-amoeba/OpticalSymbols_Library.kicad_sym")(options "")(descr ""))
+)
