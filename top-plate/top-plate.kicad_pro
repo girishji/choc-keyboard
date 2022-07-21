@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.4,
-          "height": 3.6,
-          "width": 3.6
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,13 +48,7 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -103,8 +97,8 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.127,
-        "min_copper_edge_clearance": 0.19999999999999998,
+        "min_clearance": 0.0,
+        "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -118,15 +112,8 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [
-        0.0
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -346,7 +333,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "choc-keyboard.kicad_pro",
+    "filename": "top-plate.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -380,7 +367,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "choc-keyboard.step",
+      "step": "../../../../Downloads/top-plate.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -425,7 +412,7 @@
   },
   "sheets": [
     [
-      "a0fe78c4-2544-4f26-8f40-a0cf4e888dbe",
+      "0e6b6c40-efab-4794-bc88-ed2592ffa1bd",
       ""
     ]
   ],

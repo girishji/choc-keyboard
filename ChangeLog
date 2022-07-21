@@ -1,18 +1,51 @@
 Author: Girish Palya <girishji@gmail.com>
-Date:   Thu, 14 Jul 2022 14:14:45 +0200
+Date:   Thu, 21 Jul 2022 12:18:54 +0200
 
-First commit
+updated footprints
 
 
- M .gitignore
-M  README.md
-A  choc-keyboard.kicad_pcb
-A  choc-keyboard.kicad_prl
-A  choc-keyboard.kicad_pro
-A  choc-keyboard.kicad_sch
-A  fp-lib-table
-A  placesw.py
-A  sym-lib-table
+
+M  .gitignore
+M  choc-keyboard.kicad_pcb
+M  choc-keyboard.kicad_prl
+M  choc-keyboard.kicad_pro
+M  choc-keyboard.kicad_sch
+M  placesw.py
+A  switch-plate/.gitignore
+A  switch-plate/Kailh.kicad_sym
+A  switch-plate/fp-lib-table
+A  switch-plate/kailh-local.kicad_sym
+A  switch-plate/switch-plate.kicad_pcb
+A  switch-plate/switch-plate.kicad_prl
+A  switch-plate/switch-plate.kicad_pro
+A  switch-plate/switch-plate.kicad_sch
+A  switch-plate/sym-lib-table
+A  top-plate/.gitignore
+A  top-plate/fp-lib-table
+A  top-plate/kailh.pretty/AdafruitCharliplex.kicad_mod
+A  top-plate/kailh.pretty/BlackPill_STLINK.kicad_mod
+A  top-plate/kailh.pretty/SW_Kailh_Choc_Cutout.kicad_mod
+A  top-plate/sym-lib-table
+A  top-plate/top-plate.kicad_pcb
+A  top-plate/top-plate.kicad_prl
+A  top-plate/top-plate.kicad_pro
+A  top-plate/top-plate.kicad_sch
+
+commit 4b0ee0d643f3d12f17a97092a67ec54ce22e7d42
+Author: Girish Palya <girishji@gmail.com>
+Date:   Thu Jul 14 14:14:45 2022 +0200
+
+    First commit
+    
+     M .gitignore
+    M  README.md
+    A  choc-keyboard.kicad_pcb
+    A  choc-keyboard.kicad_prl
+    A  choc-keyboard.kicad_pro
+    A  choc-keyboard.kicad_sch
+    A  fp-lib-table
+    A  placesw.py
+    A  sym-lib-table
 
 commit 2f1e4dab03f43130013811715d8959b9f02c1fb0
 Author: girishp <girishji@gmail.com>

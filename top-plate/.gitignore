@@ -1,12 +1,10 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
-choc-keyboard-backups
+top-plate-backups
 
 *.zip
 Gerbers/
 gerber/
-
-*.step
 
 .DS_Store
 

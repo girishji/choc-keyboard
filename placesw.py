@@ -79,16 +79,74 @@ def place_switches():
 def place_mcus():
     board = pcbnew.GetBoard()
     ada = board.FindFootprintByReference("U1")
-    ada.SetPosition(pcbnew.wxPointMM(6 * Width - 16, Height * 6 - 2))
-    ada.SetOrientation(0)
+    if ada:
+        ada.SetPosition(pcbnew.wxPointMM(6 * Width - 16, Height * 6 - 2))
+        ada.SetOrientation(0)
 
     bp = board.FindFootprintByReference("U2")
-    bp.SetOrientation(90 * 10)
-    bp.SetPosition(pcbnew.wxPointMM(2, 2 * Height + 2))
+    if bp:
+        bp.SetOrientation(90 * 10)
+        bp.SetPosition(pcbnew.wxPointMM(2, 2 * Height + 2))
 
     pcbnew.Refresh()
 
+
+def place_screws():
+    board = pcbnew.GetBoard()
+    for i in range(1, 6):
+        hole = board.FindFootprintByReference("H" + str(i))
+        if not hole:
+            return
+        hole.SetPosition(
+            pcbnew.wxPointMM(0.5 * Width + (i - 1) * 3 * Width, Height * 0.85)
+        )
+
+    hole = board.FindFootprintByReference("H6")
+    hole.SetPosition(pcbnew.wxPointMM(0.5 * Width + 19 / 8 - 2, Height * (3 + 1.4)))
+    hole = board.FindFootprintByReference("H7")
+    hole.SetPosition(pcbnew.wxPointMM(2 * Width, Height * (4 + 0.85)))
+    hole = board.FindFootprintByReference("H8")
+    hole.SetPosition(pcbnew.wxPointMM(4 * Width + 19 / 4 + 2, Height * (5 + 0.05)))
+    hole = board.FindFootprintByReference("H9")
+    hole.SetPosition(pcbnew.wxPointMM(7.75 * Width, Height * (4 + 0.65)))
+    hole = board.FindFootprintByReference("H10")
+    hole.SetPosition(pcbnew.wxPointMM(12 * Width + 19 / 8, Height * (4 + 0.85)))
+    hole = board.FindFootprintByReference("H11")
+    hole.SetPosition(pcbnew.wxPointMM(14.25 * Width, Height * (4 + 0.85)))
+    hole = board.FindFootprintByReference("H12")
+    hole.SetPosition(pcbnew.wxPointMM(13.75 * Width - 19 / 8, Height * (2 + 0.85)))
+    hole = board.FindFootprintByReference("H13")
+    hole.SetPosition(pcbnew.wxPointMM(11.75 * Width + 19 / 8, Height * (3 + 0.65)))
+    hole = board.FindFootprintByReference("H14")
+    hole.SetPosition(pcbnew.wxPointMM(10.125 * Width + 19 / 8, Height * (2 + 0.85)))
+    hole = board.FindFootprintByReference("H15")
+    hole.SetPosition(pcbnew.wxPointMM(8.125 * Width + 19 / 8, Height * (2 + 0.85)))
+    hole = board.FindFootprintByReference("H16")
+    hole.SetPosition(pcbnew.wxPointMM(6.125 * Width + 19 / 8, Height * (2 + 0.85)))
+    hole = board.FindFootprintByReference("H17")
+    hole.SetPosition(pcbnew.wxPointMM(2.125 * Width + 19 / 8, Height * (2 + 0.85)))
+
+    # small holes (18 to 25)
+    hole = board.FindFootprintByReference("H18")
+    hole.SetPosition(pcbnew.wxPointMM(1.5 * Width, Height * 0.85))
+    hole = board.FindFootprintByReference("H19")
+    hole.SetPosition(pcbnew.wxPointMM(5.5 * Width, Height * 0.85))
+    hole = board.FindFootprintByReference("H20")
+    hole.SetPosition(pcbnew.wxPointMM(11.5 * Width, Height * 0.85))
+    hole = board.FindFootprintByReference("H21")
+    hole.SetPosition(pcbnew.wxPointMM(12.5 * Width - 19 / 8, Height * (2 + 0.85)))
+    hole = board.FindFootprintByReference("H22")
+    hole.SetPosition(pcbnew.wxPointMM(12 * Width + 19 / 8, Height * (5 + 0.25)))
+    hole = board.FindFootprintByReference("H23")
+    hole.SetPosition(pcbnew.wxPointMM(7.4 * Width, Height * (4 + 0.65)))
+    hole = board.FindFootprintByReference("H24")
+    hole.SetPosition(pcbnew.wxPointMM(0 * Width, Height * (4 + 0.95)))
+    hole = board.FindFootprintByReference("H25")
+    hole.SetPosition(pcbnew.wxPointMM(3.125 * Width + 19 / 8, Height * 3))
+
+    pcbnew.Refresh()
+
+
 place_switches()
 place_mcus()
-
-
+place_screws()

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "kailh")(type "KiCad")(uri "/Users/gp/Projects/KiCad/amoeba-choc/kailh-choc.kicad_sym")(options "")(descr ""))
+  (lib (name "Kailh")(type "KiCad")(uri "${KIPRJMOD}/Kailh.kicad_sym")(options "")(descr ""))
+)
