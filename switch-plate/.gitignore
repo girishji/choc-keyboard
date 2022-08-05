@@ -3,8 +3,6 @@
 swith-plate-backups
 
 *.zip
-Gerbers/
-gerber/
 
 .DS_Store
 

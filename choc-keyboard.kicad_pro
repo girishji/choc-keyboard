@@ -380,7 +380,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "choc-keyboard.step",
+      "step": "../../../Downloads/choc-keyboard.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""

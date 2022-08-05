@@ -3,8 +3,6 @@
 choc-keyboard-backups
 
 *.zip
-Gerbers/
-gerber/
 
 *.step
 

@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(6.0.2-0)*
+G04 #@! TF.CreationDate,2022-07-19T14:21:48+02:00*
+G04 #@! TF.ProjectId,choc-keyboard,63686f63-2d6b-4657-9962-6f6172642e6b,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Paste,Top*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.2-0)) date 2022-07-19 14:21:48*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,1.000000X1.000000*%
+%ADD11C,1.000000*%
+G04 APERTURE END LIST*
+D10*
+X12350000Y-33630000D03*
+D11*
+X15100000Y-33700000D03*
+X12370000Y-37040000D03*
+X15100000Y-37100000D03*
+M02*

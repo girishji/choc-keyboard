@@ -367,7 +367,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "../../../../Downloads/switch-plate.dsn",
-      "step": "switch-plate.step",
+      "step": "../../../../Downloads/choc-switch-plate.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
