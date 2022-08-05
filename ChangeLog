@@ -1,41 +1,49 @@
 Author: Girish Palya <girishji@gmail.com>
-Date:   Fri, 05 Aug 2022 17:47:41 +0200
+Date:   Fri, 05 Aug 2022 17:55:37 +0200
 
-Add gerber files
+Add images
 
 
 
-M  .gitignore
 M  README.md
-M  choc-keyboard.kicad_pro
-A  jlcpcb/gerber/choc-keyboard-B_Cu.gbl
-A  jlcpcb/gerber/choc-keyboard-B_Mask.gbs
-A  jlcpcb/gerber/choc-keyboard-B_Paste.gbp
-A  jlcpcb/gerber/choc-keyboard-B_Silkscreen.gbo
-A  jlcpcb/gerber/choc-keyboard-Edge_Cuts.gm1
-A  jlcpcb/gerber/choc-keyboard-F_Cu.gtl
-A  jlcpcb/gerber/choc-keyboard-F_Mask.gts
-A  jlcpcb/gerber/choc-keyboard-F_Paste.gtp
-A  jlcpcb/gerber/choc-keyboard-F_Silkscreen.gto
-A  jlcpcb/gerber/choc-keyboard-NPTH-drl_map.gbr
-A  jlcpcb/gerber/choc-keyboard-NPTH.drl
-A  jlcpcb/gerber/choc-keyboard-PTH-drl_map.gbr
-A  jlcpcb/gerber/choc-keyboard-PTH.drl
-M  switch-plate/.gitignore
-A  switch-plate/jlcpcb/gerber/switch-plate-B_Cu.gbl
-A  switch-plate/jlcpcb/gerber/switch-plate-B_Mask.gbs
-A  switch-plate/jlcpcb/gerber/switch-plate-B_Paste.gbp
-A  switch-plate/jlcpcb/gerber/switch-plate-B_Silkscreen.gbo
-A  switch-plate/jlcpcb/gerber/switch-plate-Edge_Cuts.gm1
-A  switch-plate/jlcpcb/gerber/switch-plate-F_Cu.gtl
-A  switch-plate/jlcpcb/gerber/switch-plate-F_Mask.gts
-A  switch-plate/jlcpcb/gerber/switch-plate-F_Paste.gtp
-A  switch-plate/jlcpcb/gerber/switch-plate-F_Silkscreen.gto
-A  switch-plate/jlcpcb/gerber/switch-plate-NPTH-drl_map.gbr
-A  switch-plate/jlcpcb/gerber/switch-plate-NPTH.drl
-A  switch-plate/jlcpcb/gerber/switch-plate-PTH-drl_map.gbr
-A  switch-plate/jlcpcb/gerber/switch-plate-PTH.drl
-M  switch-plate/switch-plate.kicad_pro
+
+commit b41f6c761cfc60be1f817e77e41c15ec58061150
+Author: Girish Palya <girishji@gmail.com>
+Date:   Fri Aug 5 17:47:41 2022 +0200
+
+    Add gerber files
+    
+    M  .gitignore
+    M  README.md
+    M  choc-keyboard.kicad_pro
+    A  jlcpcb/gerber/choc-keyboard-B_Cu.gbl
+    A  jlcpcb/gerber/choc-keyboard-B_Mask.gbs
+    A  jlcpcb/gerber/choc-keyboard-B_Paste.gbp
+    A  jlcpcb/gerber/choc-keyboard-B_Silkscreen.gbo
+    A  jlcpcb/gerber/choc-keyboard-Edge_Cuts.gm1
+    A  jlcpcb/gerber/choc-keyboard-F_Cu.gtl
+    A  jlcpcb/gerber/choc-keyboard-F_Mask.gts
+    A  jlcpcb/gerber/choc-keyboard-F_Paste.gtp
+    A  jlcpcb/gerber/choc-keyboard-F_Silkscreen.gto
+    A  jlcpcb/gerber/choc-keyboard-NPTH-drl_map.gbr
+    A  jlcpcb/gerber/choc-keyboard-NPTH.drl
+    A  jlcpcb/gerber/choc-keyboard-PTH-drl_map.gbr
+    A  jlcpcb/gerber/choc-keyboard-PTH.drl
+    M  switch-plate/.gitignore
+    A  switch-plate/jlcpcb/gerber/switch-plate-B_Cu.gbl
+    A  switch-plate/jlcpcb/gerber/switch-plate-B_Mask.gbs
+    A  switch-plate/jlcpcb/gerber/switch-plate-B_Paste.gbp
+    A  switch-plate/jlcpcb/gerber/switch-plate-B_Silkscreen.gbo
+    A  switch-plate/jlcpcb/gerber/switch-plate-Edge_Cuts.gm1
+    A  switch-plate/jlcpcb/gerber/switch-plate-F_Cu.gtl
+    A  switch-plate/jlcpcb/gerber/switch-plate-F_Mask.gts
+    A  switch-plate/jlcpcb/gerber/switch-plate-F_Paste.gtp
+    A  switch-plate/jlcpcb/gerber/switch-plate-F_Silkscreen.gto
+    A  switch-plate/jlcpcb/gerber/switch-plate-NPTH-drl_map.gbr
+    A  switch-plate/jlcpcb/gerber/switch-plate-NPTH.drl
+    A  switch-plate/jlcpcb/gerber/switch-plate-PTH-drl_map.gbr
+    A  switch-plate/jlcpcb/gerber/switch-plate-PTH.drl
+    M  switch-plate/switch-plate.kicad_pro
 
 commit 22fb7196e12201c77f8d91b8dd5ecc7583ecbb5c
 Author: Girish Palya <girishji@gmail.com>

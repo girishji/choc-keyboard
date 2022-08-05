@@ -26,4 +26,5 @@ board.
 
 ![front side](https://i.imgur.com/7ngL65q.jpg)
 ![back side](https://i.imgur.com/xvfgL1L.jpg)
-
+![3d printed case](https://i.imgur.com/risvk8Q.jpg?1)
+![3d printed case](https://i.imgur.com/H77lyNH.jpg?1)
